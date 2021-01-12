@@ -27,7 +27,7 @@ export default function SimpleBottomNavigation() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="Home" icon={<Link to='/index'> <HomeIcon /></Link>} />
+      <BottomNavigationAction label="Home" icon={<Link to='/'> <HomeIcon /></Link>} />
       <BottomNavigationAction label="Contact" icon={<Link to='/contact'><EmailIcon /></Link>} />
       <BottomNavigationAction label="Projects" icon={<Link to='/projects'><PanoramaIcon /></Link>} />
       <BottomNavigationAction label="GitHub" icon={<a href='https://github.com/hpmacdonald'><GitHubIcon /></a>} />

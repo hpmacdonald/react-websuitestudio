@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import Hero from '../components/Hero'
 import Text from '../components/Text'
 import Responsive from '../components/Responsive'
 import Divider from '../components/Divider'
