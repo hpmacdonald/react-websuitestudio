@@ -1,0 +1,38 @@
+.project--card--body {
+    background-color: rgb(255, 255, 255);
+    padding: 10%;
+}
+
+.card {
+    box-shadow: 0 6px 20px rgb(44, 62, 78, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgb(44, 62, 78, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.lr--card--col {
+    padding: 02% 08%;
+}
+
+.project--card--sm {
+    margin: 20px;
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .project--card--body {
+      padding: 05% 30%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .project--card--body {
+      padding: 05% 25%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .project--card--body {
+      padding: 05% 20%;
+    }
+}

@@ -1,0 +1,13 @@
+.parallax--window {
+    text-align: center;
+}
+
+.parallax--text {
+    margin: auto;
+    margin-top: 20%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;;
+}

@@ -1,0 +1,12 @@
+.paper--text--cont {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .paper--text--cont {
+        padding: 10px;
+    }
+    .paper--text--cont, p {
+        font-size: 12px; 
+    }
+  }

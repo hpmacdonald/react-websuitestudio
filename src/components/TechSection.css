@@ -1,0 +1,28 @@
+.tech--section {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 05% 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fa-fontawesome--cont {
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .tech--section {
+      height: 650px;
+      padding: 10%;
+    }
+}
+  

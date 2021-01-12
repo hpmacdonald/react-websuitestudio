@@ -1,0 +1,18 @@
+.form-section {
+    text-align: center;
+    padding: 10%;
+    color: black;
+}
+
+.contact--text {
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    text-align: left;
+    padding: 0% 10% 05% 0%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact--button {
+      width: 100%;
+    }
+  }

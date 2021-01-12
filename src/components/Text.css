@@ -1,0 +1,25 @@
+.card--cont {
+    text-align: center;
+    background-color: rgb(248, 247, 242);
+    color: rgb(71, 71, 71);
+    font-family: 'Noto Serif KR', serif;
+    padding: 05% 20%;
+}
+
+.top--header {
+    color: rgb(44, 62, 79);
+}
+
+.desc--text {
+    font-size: 13px;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card--cont {
+      padding: 05% 10%;
+    }
+}
+
+

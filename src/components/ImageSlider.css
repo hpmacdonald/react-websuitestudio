@@ -1,0 +1,19 @@
+.carousel--cont {
+    background-color: white;
+}
+
+.process--header {
+    color: rgb(71, 71, 71);
+    border-style: solid;
+    border-width: 0.5px 0px 0.5px 0px;
+    border-color: black;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 150px;
+    padding: 40px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+
+}
