@@ -7,25 +7,20 @@ import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PanoramaIcon from '@material-ui/icons/Panorama';
 import { Link } from 'react-router-dom';
-
-const useStyles = makeStyles({
-  root: {
-    width: 500,
-  },
-});
+import './Footer.css'
 
 export default function SimpleBottomNavigation() {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   return (
     <BottomNavigation
+    className='bottom--navigation'
       value={value}
       onChange={(event, newValue) => {
         setValue(newValue);
       }}
       showLabels
-      className={classes.root}
+     
     >
       <BottomNavigationAction label="Home" icon={<Link to='/'> <HomeIcon /></Link>} />
       <BottomNavigationAction label="Contact" icon={<Link to='/contact'><EmailIcon /></Link>} />

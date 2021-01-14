@@ -1,6 +1,7 @@
 
 import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Image } from 'react-bootstrap'
 import './NavBar.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -37,7 +38,7 @@ const Navbar = () => {
                 <div className="navbar-container">
                     <ul>
                         <Link data-aos="fade-right" to="/index" className="navbar-logo" onClick={closeMobileMenu}>
-                            wss
+                    
                         </Link>
                     </ul>
                     <div className='menu-icon' onClick={handleClick}>
