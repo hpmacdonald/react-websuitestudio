@@ -12,7 +12,7 @@ const ProjectCards = () => {
                     {cardfiller.map(filler => (
                         <Col>
                             <Row>
-                                <Card data-aos="fade-in" className='project--card--sm'style={{ width: '22rem' }}>
+                                <Card data-aos="fade-in" className='project--card--sm' style={{ width: '22rem' }}>
                                 <Card.Img variant="top" src={filler.image} />
                                 <Card.Body>
                                     <Card.Title>{filler.name}</Card.Title>

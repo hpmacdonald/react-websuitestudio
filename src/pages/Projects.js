@@ -7,7 +7,7 @@ import OnlyNavBar from '../components/OnlyNavBar'
 function Projects() {
   return (
     <div>
-      <OnlyNavBar />
+        <OnlyNavBar />
         <ImageSlider />
         <ProjectCards />
         <Footer />

@@ -21,18 +21,27 @@
 
 @media only screen and (max-width: 1000px) {
     .project--card--body {
-      padding: 05% 30%;
+
+    }
+    .card {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 900px) {
     .project--card--body {
-      padding: 05% 25%;
+
+    }
+    .card {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 800px) {
     .project--card--body {
-      padding: 05% 20%;
+      
+    }
+    .card {
+        width: 100%;
     }
 }

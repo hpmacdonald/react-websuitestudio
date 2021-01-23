@@ -84,7 +84,11 @@ const Navbar = () => {
                     <br></br>
                     web design
                     <br></br>
-                    <Button variant="outlined" size="medium" color='primary'>Contact</Button>
+                    <Button variant="outlined" size="medium" color='primary'>
+                        <Link className="header--link" to="/contact">
+                            Contact
+                        </Link>
+                    </Button>
                 </div>
                 <br></br>
                 <br></br>
