@@ -171,6 +171,7 @@ export default function CustomizedTimeline() {
       
     </Timeline>
     </ThemeProvider>
+    
     </div>
     
   );

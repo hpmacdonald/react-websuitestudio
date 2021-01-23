@@ -2,12 +2,12 @@
 import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap'
-import './NavBar.css';
+import './OnlyNavBar.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Button from '@material-ui/core/Button';
 
-const Navbar = () => {
+const OnlyNavBar = () => {
     useEffect(() => {
         Aos.init({ duration: 3000 });
     }, []);
@@ -34,12 +34,12 @@ const Navbar = () => {
 
     return (
         <>
-        <section>
-            <nav className="navbar">
+
+            <nav className="navbar--only">
                 <div className="navbar-container">
                     <ul>
-                        <Link data-aos="fade-right" to="/index" className="navbar-logo" onClick={closeMobileMenu}>
-                    
+                        <Link to="/index" className="navbar-logo" onClick={closeMobileMenu}>
+                            wss
                         </Link>
                     </ul>
                     <div className='menu-icon' onClick={handleClick}>
@@ -75,25 +75,9 @@ const Navbar = () => {
                 </div>
             </nav>
             
-                <div style={{ height: '500px' }}>
-                    <h1 data-aos="fade-in" className='parallax--text'>web suite studio</h1>
-                <div className='hero-content' data-aos="fade-in">
-                    e-commerce
-                    <br></br>
-                    web applications
-                    <br></br>
-                    web design
-                    <br></br>
-                    <Button variant="outlined" size="medium" color='primary'>Contact</Button>
-                </div>
-                <br></br>
-                <br></br>
-                
-                </div>
-                
-            </section>
+              
         </>
     )
 }
 
-export default Navbar;
+export default OnlyNavBar;

@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 
 
 
+
 const Responsive = () => {
     return (
         <div className='resp--container'>
@@ -17,7 +18,7 @@ const Responsive = () => {
                 <p data-aos="fade-in">Responsive sites improve SEO rankings</p>
                 <p data-aos="fade-in">80% of websites are viewed on a mobile device</p>
                 <Link to="/projects" >
-                    <Button data-aos="fade-in" variant="outlined" color='secondary'>projects</Button>    
+                    <Button  className='contact--button' data-aos="fade-in" variant="outlined" color='secondary'>projects</Button>    
                 </Link>
             </div>
             <div className='one'>
@@ -35,6 +36,7 @@ const Responsive = () => {
                 </Link>
                 
             </div>        
+
         </div>
     )
 }

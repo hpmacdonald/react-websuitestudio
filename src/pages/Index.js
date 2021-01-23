@@ -1,24 +1,19 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import Hero from '../components/Hero'
 import Text from '../components/Text'
 import Responsive from '../components/Responsive'
 import Divider from '../components/Divider'
 import Footer from '../components/Footer'
 import TechSection from '../components/TechSection'
 import Time from '../components/Time'
-import ParallaxWindow from '../components/ParallaxWindow'
-import ImageSlider from '../components/ImageSlider'
+import NavBar from '../components/NavBar';
 
 function Index() {
   return (
     <div>
         <NavBar />
-        <ParallaxWindow />
-        <Text />
+        <Text />  
         <Responsive />
         <Time />
-        <ImageSlider />
         <Divider />
         <TechSection />
         <Footer />

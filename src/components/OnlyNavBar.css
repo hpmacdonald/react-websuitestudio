@@ -1,34 +1,36 @@
-.navbar {
-    background: transparent;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-  }
+.navbar--only {
+  background: rgb(64, 80, 181);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
 
-  section {
-    background-image: url('https://images.unsplash.com/photo-1510279770292-4b34de9f5c23?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
-    min-height: 400px;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    text-align: center;
-  }
-
-  
-  
-  
   .navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     max-width: 1500px;
+  }
+  
+  .navbar-logo {
+    color: rgb(248, 247, 242);
+    justify-self: start;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
   }
   
   .fa-typo3 {

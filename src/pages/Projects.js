@@ -1,16 +1,14 @@
 import React from 'react'
-import Hero from '../components/Hero'
 import ProjectCards from '../components/ProjectCards'
-import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Text from '../components/Text'
-import ParallaxWindow from '../components/ParallaxWindow'
+import ImageSlider from '../components/ImageSlider'
+import OnlyNavBar from '../components/OnlyNavBar'
 
 function Projects() {
   return (
     <div>
-        <NavBar />
-        <ParallaxWindow />
+      <OnlyNavBar />
+        <ImageSlider />
         <ProjectCards />
         <Footer />
     </div>
