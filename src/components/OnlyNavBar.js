@@ -38,7 +38,7 @@ const OnlyNavBar = () => {
             <nav className="navbar--only">
                 <div className="navbar-container">
                     <ul>
-                        <Link to="/index" className="navbar-logo" onClick={closeMobileMenu}>
+                        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                             wss
                         </Link>
                     </ul>

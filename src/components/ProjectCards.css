@@ -23,9 +23,6 @@
     .project--card--body {
 
     }
-    .card {
-        width: 100%;
-    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -41,7 +38,7 @@
     .project--card--body {
       
     }
-    .card {
+    .project--card {
         width: 100%;
     }
 }
