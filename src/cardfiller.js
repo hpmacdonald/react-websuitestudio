@@ -2,7 +2,7 @@ const cardfiller = [
     {
         name:'Online Food Ordering Application',
         description: 'An eCommerce food ordering platform built from the ground up with React, Redux, Express & MongoDB',
-        image:'images/food-order.png',
+        image:'images/order-summary-2.png',
         languages:'React | Express | MongoDB | NodeJS'
     },
     {
