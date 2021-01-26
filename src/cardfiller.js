@@ -3,7 +3,7 @@ const cardfiller = [
         name:'Online Food Ordering Application',
         description: 'An eCommerce food ordering platform built from the ground up with React, Redux, Express & MongoDB',
         image:'images/order-summary-2.png',
-        languages:'React | Express | MongoDB | NodeJS'
+        languages:'React | Express | Redux | MongoDB | NodeJS'
     },
     {
         name:'Golf Course Application',
@@ -16,6 +16,12 @@ const cardfiller = [
         description: 'An eCommerce platform from the ground up with Python, Django, MySQL.',
         image:'images/ecomm-ss2.png',
         languages:'Python | Django | CSS | JS | MySQL'
+    },
+    {  
+        name:'NBA Statistics Application',
+        description:'Application uses an open source statistical API for the NBA. Gives the user the ability to look up individual players, team scores, and team statistics. ',
+        image:'images/stats-api.png',
+        languages:'React | Express | Redux | MongoDB | NodeJS'
     },
     {  
         name:'Bloggin Template Application',
