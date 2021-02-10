@@ -18,6 +18,12 @@ const cardfiller = [
         languages:'Python | Django | CSS | JS | MySQL'
     },
     {  
+        name:'To-Do List Applications',
+        description:'An application that gives users the ability to create, and delete tasks, as well as check them off when completed.  ',
+        image:'images/to-do-desktop-ss.png',
+        languages:'VueJS | Vuetify | HTML | SCSS'
+    },
+    {  
         name:'NBA Statistics Application',
         description:'Application uses an open source statistical API for the NBA. Gives the user the ability to look up individual players, team scores, and team statistics. ',
         image:'images/stats-api.png',

@@ -23,7 +23,7 @@ const ImageSlider = () => {
       style={{  }}
       className="d-block w-100"
       src="images/food-app-ss.png"
-      alt="Third slide"
+      alt="Second slide"
     />
     <Carousel.Caption>
 
@@ -39,12 +39,13 @@ const ImageSlider = () => {
     <Carousel.Caption>
     </Carousel.Caption>
   </Carousel.Item>
+  
   <Carousel.Item interval={2000}>
     <img
       style={{  }}
       className="d-block w-100"
       src="images/twitter-ss-2.png"
-      alt="Third slide"
+      alt="Fourth slide"
     />
     <Carousel.Caption>
 
