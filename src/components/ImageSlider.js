@@ -18,6 +18,16 @@ const ImageSlider = () => {
 
     </Carousel.Caption>
   </Carousel.Item>
+  <Carousel.Item>
+    <img
+      style={{  }}
+      className="d-block w-100"
+      src="images/to-do-dark-mobile.png"
+      alt="Third slide"
+    />
+    <Carousel.Caption>
+    </Carousel.Caption>
+  </Carousel.Item>
   <Carousel.Item interval={2000}>
     <img
       style={{  }}

@@ -20,7 +20,7 @@ const cardfiller = [
     {  
         name:'To-Do List Applications',
         description:'An application that gives users the ability to create, and delete tasks, as well as check them off when completed.  ',
-        image:'images/to-do-desktop-ss.png',
+        image:'images/to-do-dark-ss.png',
         languages:'VueJS | Vuetify | HTML | SCSS'
     },
     {  
